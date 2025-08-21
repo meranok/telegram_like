@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What's up</title>
+  </head>
+  <body>
+    <div id="app-container" class="app-container">
+      <!-- Login Screen -->
+      <div id="login-screen" class="login-screen">
+          <h1 class="text-2xl font-bold mb-6 text-center text-slate-800">Welcome to the Chat App</h1>
+          <form id="login-form" class="space-y-4">
+              <div>
+                  <label for="name" class="block text-sm font-medium text-gray-700">Your Name</label>
+                  <input type="text" id="name" placeholder="Enter your name" class="mt-1 block w-full px-4 py-2 bg-slate-50 border border-slate-300 rounded-lg text-slate-900 focus:outline-none focus:ring-2 focus:ring-sky-500 transition-all duration-200" required>
+              </div>
+              <div>
+                  <button type="submit" class="w-full py-3 px-4 rounded-lg text-white font-semibold transition-all duration-300 transform active:scale-95 bg-sky-500 hover:bg-sky-600 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2">
+                      Sign In
+                  </button>
+              </div>
+          </form>
+      </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
